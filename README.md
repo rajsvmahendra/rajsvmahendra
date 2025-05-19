@@ -39,8 +39,6 @@ Here are the gears and gadgets I tinker with daily:
 
 ## 📊 GitHub in Motion
 
-![Profile Views](https://komarev.com/ghpvc/?username=rajsvmahendra&color=brightgreen)
-
 [![GitHub Streak](https://streak-stats.demolab.com?user=rajsvmahendra&theme=tokyonight&hide_border=false)](https://git.io/streak-stats)
 
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=rajsvmahendra&show_icons=true&theme=tokyonight&count_private=true)
