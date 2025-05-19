@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=26&pause=1000&color=00F7FF&center=true&vCenter=true&width=435&lines=Hey+there!+I'm+Rajsv+Mahendra+%F0%9F%91%8B;Welcome+to+my+GitHub+profile!;Code+is+poetry+and+I'm+writing+verses..." alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=24&pause=1000&color=00F7FF&center=true&vCenter=true&width=600&lines=Hey+there!+I'm+Rajsv+Mahendra+%F0%9F%91%8B;Welcome+to+my+GitHub+profile!" alt="Typing SVG" />
 </p>
 
 ---
@@ -9,8 +9,6 @@
 </p>
 
 ---
-
-# Hey there, I'm Rajsv Mahendra 👋
 
 ## 🧑‍💻 About Me
 
