@@ -1,10 +1,20 @@
-# Hey there, I'm Rajsv Mahendra 👋
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=26&pause=1000&color=00F7FF&center=true&vCenter=true&width=435&lines=Hey+there!+I'm+Rajsv+Mahendra+%F0%9F%91%8B;Welcome+to+my+GitHub+profile!;Code+is+poetry+and+I'm+writing+verses..." alt="Typing SVG" />
+</p>
 
-Welcome to my corner of the internet — part digital workshop, part scribbled notebook, and part time machine
+---
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=rajsvmahendra&color=brightgreen" alt="profile views" />
+</p>
+
+---
+
+# Hey there, I'm Rajsv Mahendra 👋
 
 ## 🧑‍💻 About Me
 
-I'm not just a student — I'm a curious mind, a builder of ideas, and a seeker of the "why" behind the "how."  
+I'm not just a student — I'm a curious mind, a builder of ideas, and a seeker of the *why* behind the *how*.  
 When I’m not writing code, I’m probably rewriting it… because perfection is a moving target, isn’t it?
 
 Currently diving deep into:
@@ -35,11 +45,11 @@ Here are the gears and gadgets I tinker with daily:
 
 [![GitHub Streak](https://streak-stats.demolab.com?user=rajsvmahendra&theme=tokyonight&hide_border=false)](https://git.io/streak-stats)
 
-![GitHub Contributions](https://github-readme-stats.vercel.app/api?username=rajsvmahendra&show_icons=true&theme=tokyonight&count_private=true)
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=rajsvmahendra&show_icons=true&theme=tokyonight&count_private=true)
 
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=rajsvmahendra&layout=compact&theme=tokyonight)
 
-<!-- Activity Graph will go here once we deploy it -->
-<!-- Optional: add GitHub stats and top languages -->
+<!-- Activity Graph will go here once deployed -->
 
 ---
 
@@ -47,26 +57,26 @@ Here are the gears and gadgets I tinker with daily:
 
 A few things I’ve built or contributed to:
 
-- 🔍 [Fraud_app](#) – Real-Time Credit Card Fraud Detection Dashboard
-- 🤖 [MemoryVisualizer](#) – A Python-based memory allocation simulator
+- 🔍 [Fraud_app](https://github.com/rajsvmahendra/Fraud_app) – Real-Time Credit Card Fraud Detection Dashboard.
+- 🤖 [MemoryVisualizer](https://github.com/rajsvmahendra/MemoryVisualizer) – A Python-based memory allocation simulator.
 - 📊 [Dashboards](#) – I like making data talk.
 
-(Working on new ones constantly — watch this space!)
+_(Working on new ones constantly — watch this space!)_
 
 ---
 
 ## 📚 Currently Learning
 
-- TypeScript
-- LLM Fine-Tuning
-- How to not refactor the same function 18 times 😅
+- 🧾 TypeScript
+- 🤖 LLM Fine-Tuning
+- 🪛 How to not refactor the same function 18 times 😅
 
 ---
 
 ## 💡 Fun Facts
 
-- I love ancient philosophy as much as modern tech 🏛️
-- My coffee: strong and dark like my variable naming conventions ☕
+- I love ancient philosophy as much as modern tech 🏛️  
+- My coffee: strong and dark like my variable naming conventions ☕  
 - Once debugged an issue for 3 hours... forgot to save the file 😭
 
 ---
@@ -76,7 +86,7 @@ A few things I’ve built or contributed to:
 I’m always up for collaborations, nerdy chats, or just vibing on tech.
 
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/rajsvmahendra/)
-[![Gmail](https://img.shields.io/badge/-Email-red?style=flat&logo=gmail&logoColor=white)](mailto:your.rajasvmahendra@gmail.com)
+[![Gmail](https://img.shields.io/badge/-Email-red?style=flat&logo=gmail&logoColor=white)](mailto:rajsvmahendra@gmail.com)
 [![Portfolio](https://img.shields.io/badge/-Portfolio-grey?style=flat&logo=internet-explorer)](https://yourportfolio.com)
 
 ---
