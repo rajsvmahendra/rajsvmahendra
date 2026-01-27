@@ -1,70 +1,81 @@
-# Hi, I'm Rajsv Mahendra
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=24&pause=1000&color=00F7FF&center=true&vCenter=true&width=700&lines=Hi%2C+I%27m+Rajsv+Mahendra;Data+Analyst+%26+Frontend+Designer;I+build+with+data+and+design" alt="Typing SVG" />
+</p>
 
-I am a Data Analyst and Frontend Designer with an interest in turning data into clear insights and building simple, usable interfaces around them.
-
-I work mainly with Python, data analysis, and web technologies, and I enjoy combining analytics with visual presentation.
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=rajsvmahendra&color=brightgreen" alt="profile views" />
+</p>
 
 ---
 
-## 🎯 What I Do
+## About Me
+
+I am a Data Analyst and Frontend Designer focused on building data-driven applications and clear visual interfaces.  
+My work combines Python-based analysis with frontend development to present insights in a simple and usable way.
+
+---
+
+## What I Do
 
 - Data analysis and visualization  
 - Dashboard creation  
-- Basic machine learning models  
-- Frontend development for data-driven apps  
-
-I focus on practical projects that solve real problems rather than just demos.
+- Machine learning models (basic to intermediate)  
+- Frontend development for analytics projects  
 
 ---
 
-## 🧰 Skills
+## Skills
 
-**Programming & Data**
+**Data & Programming**
 - Python  
-- Pandas, NumPy, Matplotlib  
-- Basic Machine Learning  
+- Pandas, NumPy  
+- Matplotlib, Seaborn  
+- Machine Learning (basics)
 
-**Web**
+**Frontend**
 - HTML  
 - CSS  
-- JavaScript (learning and improving)
+- JavaScript  
 
 **Tools**
-- Git & GitHub  
+- Git  
+- GitHub  
 
 ---
 
-## 📌 Featured Projects
+## Featured Projects
 
-### 🔹 Fraud Detection System  
-Repository:  
+### Fraud Detection System  
 https://github.com/rajsvmahendra/Fraud-Detection-System.git  
 
-A machine learning project for detecting fraudulent transactions.  
-Includes data preprocessing, model training, and result analysis.
+A machine learning project to identify fraudulent transactions using historical data.
 
 ---
 
-### 🔹 India QSR Insights 2025  
-Repository:  
+### India QSR Insights 2025  
 https://github.com/rajsvmahendra/India-QSR-Insights-2025.git  
 
-A data analysis project focused on the Indian Quick Service Restaurant (QSR) market.  
-Built to explore trends, visualize insights, and support decision-making.
+A data analysis project exploring trends in the Indian Quick Service Restaurant market.
 
 ---
 
-## 📊 GitHub Stats
+## GitHub Stats
 
-![GitHub Streak](https://streak-stats.demolab.com?user=rajsvmahendra&theme=tokyonight)  
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=rajsvmahendra&theme=tokyonight&hide_border=true" />
+</p>
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=rajsvmahendra&show_icons=true&theme=tokyonight)  
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=rajsvmahendra&show_icons=true&theme=tokyonight&hide_border=true" />
+</p>
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=rajsvmahendra&layout=compact&theme=tokyonight)
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rajsvmahendra&layout=compact&theme=tokyonight&hide_border=true" />
+</p>
 
 ---
 
-## 📚 Currently Learning
+## Currently Learning
 
 - TypeScript  
 - Advanced dashboards  
@@ -73,11 +84,11 @@ Built to explore trends, visualize insights, and support decision-making.
 
 ---
 
-## 📬 Contact
+## Contact
 
 LinkedIn: https://www.linkedin.com/in/rajsvmahendra/  
 Email: mailto:rajsvmahendra@gmail.com  
 
 ---
 
-I build projects to understand systems better and to present data clearly.
+I focus on building projects that make data understandable and interfaces usable.
