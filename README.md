@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=24&pause=1000&color=00F7FF&center=true&vCenter=true&width=700&lines=Hi%2C+I%27m+Rajsv+Mahendra;Data+Analyst+%26+Frontend+Designer;I+turn+data+into+interfaces" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=24&pause=1000&color=00F7FF&center=true&vCenter=true&width=700&lines=Hi%2C+I%27m+Rajsv+Mahendra;Data+Analyst+%26+Frontend+Designer;I+turn+data+into+clear+interfaces" alt="Typing SVG" />
 </p>
 
 <p align="center">
@@ -10,8 +10,8 @@
 
 ## About Me
 
-I am a Data Analyst and Frontend Designer focused on building data-driven applications and clean visual interfaces.  
-My work combines Python-based analysis with frontend development to present insights clearly and effectively.
+I am a Data Analyst and Frontend Designer who enjoys working at the intersection of data and design.  
+My focus is on analyzing data with Python and presenting insights through clean, usable interfaces.
 
 ---
 
@@ -20,7 +20,7 @@ My work combines Python-based analysis with frontend development to present insi
 - Data analysis and visualization  
 - Dashboard design  
 - Machine learning models  
-- Frontend development for analytics tools  
+- Frontend development for analytics applications  
 
 ---
 
@@ -46,17 +46,17 @@ My work combines Python-based analysis with frontend development to present insi
 
 ## Featured Projects
 
-### 🔹 Fraud Detection System  
+### Fraud Detection System  
 https://github.com/rajsvmahendra/Fraud-Detection-System.git  
 
 Machine learning project for detecting fraudulent transactions using historical data.
 
 ---
 
-### 🔹 India QSR Insights 2025  
+### India QSR Insights 2025  
 https://github.com/rajsvmahendra/India-QSR-Insights-2025.git  
 
-Data analysis project exploring trends and patterns in the Indian Quick Service Restaurant (QSR) market.
+Data analysis project focused on trends in the Indian Quick Service Restaurant (QSR) market.
 
 ---
 
@@ -80,8 +80,8 @@ Data analysis project exploring trends and patterns in the Indian Quick Service 
 
 - TypeScript  
 - Advanced dashboards  
-- Machine learning improvement  
-- Frontend design principles  
+- Improving machine learning models  
+- Frontend design practices  
 
 ---
 
@@ -92,4 +92,4 @@ Email: mailto:rajsvmahendra@gmail.com
 
 ---
 
-I build projects to understand systems better and to present data clearly.
+I build projects to make data understandable and interfaces usable.
