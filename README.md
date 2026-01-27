@@ -1,93 +1,83 @@
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=24&pause=1000&color=00F7FF&center=true&vCenter=true&width=600&lines=Hey+there!+I'm+Rajsv+Mahendra+%F0%9F%91%8B;I+build+things+with+code.;Welcome+to+my+GitHub!" alt="Typing SVG" />
-</p>
+# Hi, I'm Rajsv Mahendra
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=rajsvmahendra&color=brightgreen" alt="profile views" />
-</p>
+I am a Data Analyst and Frontend Designer with an interest in turning data into clear insights and building simple, usable interfaces around them.
+
+I work mainly with Python, data analysis, and web technologies, and I enjoy combining analytics with visual presentation.
 
 ---
 
-## 👋 About Me
+## 🎯 What I Do
 
-I’m a student with a builder’s instinct — I like understanding **how things work** before using them.  
-Code, for me, is not just a tool; it’s a way to shape ideas into reality.
+- Data analysis and visualization  
+- Dashboard creation  
+- Basic machine learning models  
+- Frontend development for data-driven apps  
 
-**Currently focused on:**
-- 🧠 Machine Learning & AI  
-- 🌐 Web Development  
-- 📊 Data & visualization projects  
-
-> *“Learn the tool. Learn the metal. Then build the blade.”*
+I focus on practical projects that solve real problems rather than just demos.
 
 ---
 
-## 🧰 Tech Stack
+## 🧰 Skills
 
-**Languages & Tools I use:**
+**Programming & Data**
+- Python  
+- Pandas, NumPy, Matplotlib  
+- Basic Machine Learning  
 
-![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white)
-![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=flat&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=flat&logo=css3)
-![Git](https://img.shields.io/badge/-Git-F05032?style=flat&logo=git&logoColor=white)
+**Web**
+- HTML  
+- CSS  
+- JavaScript (learning and improving)
 
-(Adding more as I grow.)
+**Tools**
+- Git & GitHub  
+
+---
+
+## 📌 Featured Projects
+
+### 🔹 Fraud Detection System  
+Repository:  
+https://github.com/rajsvmahendra/Fraud-Detection-System.git  
+
+A machine learning project for detecting fraudulent transactions.  
+Includes data preprocessing, model training, and result analysis.
+
+---
+
+### 🔹 India QSR Insights 2025  
+Repository:  
+https://github.com/rajsvmahendra/India-QSR-Insights-2025.git  
+
+A data analysis project focused on the Indian Quick Service Restaurant (QSR) market.  
+Built to explore trends, visualize insights, and support decision-making.
 
 ---
 
 ## 📊 GitHub Stats
 
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=rajsvmahendra&theme=tokyonight" />
-</p>
+![GitHub Streak](https://streak-stats.demolab.com?user=rajsvmahendra&theme=tokyonight)  
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=rajsvmahendra&show_icons=true&theme=tokyonight&count_private=true" />
-</p>
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=rajsvmahendra&show_icons=true&theme=tokyonight)  
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rajsvmahendra&layout=compact&theme=tokyonight" />
-</p>
-
----
-
-## 🚀 Featured Projects
-
-- 🔍 **[Fraud_app](https://github.com/rajsvmahendra/Fraud_app)**  
-  Real-time credit card fraud detection dashboard using ML.
-
-- 🤖 **[MemoryVisualizer](https://github.com/rajsvmahendra/MemoryVisualizer)**  
-  A Python-based simulator to visualize memory allocation.
-
-- 📊 **Dashboards**  
-  Data visualizations that make numbers speak.
-
-*(More projects coming — this forge is always hot.)*
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=rajsvmahendra&layout=compact&theme=tokyonight)
 
 ---
 
 ## 📚 Currently Learning
 
-- 🧾 TypeScript  
-- 🤖 LLM Fine-Tuning  
-- 🧠 System design basics  
+- TypeScript  
+- Advanced dashboards  
+- Machine learning improvement  
+- Frontend design practices  
 
 ---
 
-## 🧩 Fun Facts
+## 📬 Contact
 
-- Ancient philosophy fascinates me as much as modern tech  
-- Coffee fuels both my code and my courage ☕  
-- I’ve spent hours debugging… only to realize I didn’t save the file  
-
----
-
-## 📬 Connect With Me
-
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/rajsvmahendra/)
-[![Email](https://img.shields.io/badge/-Email-red?style=flat&logo=gmail&logoColor=white)](mailto:rajsvmahendra@gmail.com)
-[![Portfolio](https://img.shields.io/badge/-Portfolio-grey?style=flat)](https://yourportfolio.com)
+LinkedIn: https://www.linkedin.com/in/rajsvmahendra/  
+Email: mailto:rajsvmahendra@gmail.com  
 
 ---
 
-> *“Code is not noise. It is a record of how I think.”*
+I build projects to understand systems better and to present data clearly.
