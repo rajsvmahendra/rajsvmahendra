@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=24&pause=1000&color=00F7FF&center=true&vCenter=true&width=700&lines=Hi%2C+I%27m+Rajsv+Mahendra;Data+Analyst+%26+Frontend+Designer;I+build+with+data+and+design" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=24&pause=1000&color=00F7FF&center=true&vCenter=true&width=700&lines=Hi%2C+I%27m+Rajsv+Mahendra;Data+Analyst+%26+Frontend+Designer;I+turn+data+into+interfaces" alt="Typing SVG" />
 </p>
 
 <p align="center">
@@ -10,59 +10,60 @@
 
 ## About Me
 
-I am a Data Analyst and Frontend Designer focused on building data-driven applications and clear visual interfaces.  
-My work combines Python-based analysis with frontend development to present insights in a simple and usable way.
+I am a Data Analyst and Frontend Designer focused on building data-driven applications and clean visual interfaces.  
+My work combines Python-based analysis with frontend development to present insights clearly and effectively.
 
 ---
 
 ## What I Do
 
 - Data analysis and visualization  
-- Dashboard creation  
-- Machine learning models (basic to intermediate)  
-- Frontend development for analytics projects  
+- Dashboard design  
+- Machine learning models  
+- Frontend development for analytics tools  
 
 ---
 
-## Skills
+## Tech Stack
 
-**Data & Programming**
-- Python  
-- Pandas, NumPy  
-- Matplotlib, Seaborn  
-- Machine Learning (basics)
+### Data & Programming
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat&logo=numpy&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=flat)
+![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=flat&logo=scikit-learn&logoColor=white)
 
-**Frontend**
-- HTML  
-- CSS  
-- JavaScript  
+### Frontend
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
 
-**Tools**
-- Git  
-- GitHub  
+### Tools
+![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)
 
 ---
 
 ## Featured Projects
 
-### Fraud Detection System  
+### 🔹 Fraud Detection System  
 https://github.com/rajsvmahendra/Fraud-Detection-System.git  
 
-A machine learning project to identify fraudulent transactions using historical data.
+Machine learning project for detecting fraudulent transactions using historical data.
 
 ---
 
-### India QSR Insights 2025  
+### 🔹 India QSR Insights 2025  
 https://github.com/rajsvmahendra/India-QSR-Insights-2025.git  
 
-A data analysis project exploring trends in the Indian Quick Service Restaurant market.
+Data analysis project exploring trends and patterns in the Indian Quick Service Restaurant (QSR) market.
 
 ---
 
-## GitHub Stats
+## GitHub Motion
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com/?user=rajsvmahendra&theme=tokyonight&hide_border=true" />
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=rajsvmahendra&theme=tokyonight&hide_border=true" />
 </p>
 
 <p align="center">
@@ -80,7 +81,7 @@ A data analysis project exploring trends in the Indian Quick Service Restaurant 
 - TypeScript  
 - Advanced dashboards  
 - Machine learning improvement  
-- Frontend design practices  
+- Frontend design principles  
 
 ---
 
@@ -91,4 +92,4 @@ Email: mailto:rajsvmahendra@gmail.com
 
 ---
 
-I focus on building projects that make data understandable and interfaces usable.
+I build projects to understand systems better and to present data clearly.
