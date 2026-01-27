@@ -63,10 +63,6 @@ Data analysis project focused on trends in the Indian Quick Service Restaurant (
 ## GitHub Motion
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=rajsvmahendra&theme=tokyonight&hide_border=true" />
-</p>
-
-<p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=rajsvmahendra&show_icons=true&include_all_commits=true&theme=tokyonight&hide_border=true" />
 </p>
 
