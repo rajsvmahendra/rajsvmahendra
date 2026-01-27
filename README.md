@@ -62,7 +62,7 @@ A data analysis project exploring trends in the Indian Quick Service Restaurant 
 ## GitHub Stats
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=rajsvmahendra&theme=tokyonight&hide_border=true" />
+  <img src="https://streak-stats.demolab.com/?user=rajsvmahendra&theme=tokyonight&hide_border=true" />
 </p>
 
 <p align="center">
