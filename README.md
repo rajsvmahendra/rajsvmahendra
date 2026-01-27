@@ -1,8 +1,6 @@
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=24&pause=1000&color=00F7FF&center=true&vCenter=true&width=600&lines=Hey+there!+I'm+Rajsv+Mahendra+%F0%9F%91%8B;Welcome+to+my+GitHub+profile!" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=24&pause=1000&color=00F7FF&center=true&vCenter=true&width=600&lines=Hey+there!+I'm+Rajsv+Mahendra+%F0%9F%91%8B;I+build+things+with+code.;Welcome+to+my+GitHub!" alt="Typing SVG" />
 </p>
-
----
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=rajsvmahendra&color=brightgreen" alt="profile views" />
@@ -10,81 +8,86 @@
 
 ---
 
-## 🧑‍💻 About Me
+## 👋 About Me
 
-I'm not just a student — I'm a curious mind, a builder of ideas, and a seeker of the *why* behind the *how*.  
-When I’m not writing code, I’m probably rewriting it… because perfection is a moving target, isn’t it?
+I’m a student with a builder’s instinct — I like understanding **how things work** before using them.  
+Code, for me, is not just a tool; it’s a way to shape ideas into reality.
 
-Currently diving deep into:
-- 🧠 Machine Learning & AI
-- 🌐 Web Development
-- 🧪 Side experiments that may or may not destroy the universe
+**Currently focused on:**
+- 🧠 Machine Learning & AI  
+- 🌐 Web Development  
+- 📊 Data & visualization projects  
 
-> “I believe in learning from first principles — not just using the hammer, but knowing how it’s forged.”
+> *“Learn the tool. Learn the metal. Then build the blade.”*
 
 ---
 
-## 🧰 Tools of the Trade
+## 🧰 Tech Stack
 
-Here are the gears and gadgets I tinker with daily:
+**Languages & Tools I use:**
 
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white)
 ![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=flat&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=flat&logo=css3)
 ![Git](https://img.shields.io/badge/-Git-F05032?style=flat&logo=git&logoColor=white)
 
-...and a whole lot more in the toolbox 🧰
+(Adding more as I grow.)
 
 ---
 
-## 📊 GitHub in Motion
+## 📊 GitHub Stats
 
-[![GitHub Streak](https://streak-stats.demolab.com?user=rajsvmahendra&theme=tokyonight&hide_border=false)](https://git.io/streak-stats)
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=rajsvmahendra&theme=tokyonight" />
+</p>
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=rajsvmahendra&show_icons=true&theme=tokyonight&count_private=true)
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=rajsvmahendra&show_icons=true&theme=tokyonight&count_private=true" />
+</p>
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=rajsvmahendra&layout=compact&theme=tokyonight)
-
-<!-- Activity Graph will go here once deployed -->
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rajsvmahendra&layout=compact&theme=tokyonight" />
+</p>
 
 ---
 
 ## 🚀 Featured Projects
 
-A few things I’ve built or contributed to:
+- 🔍 **[Fraud_app](https://github.com/rajsvmahendra/Fraud_app)**  
+  Real-time credit card fraud detection dashboard using ML.
 
-- 🔍 [Fraud_app](https://github.com/rajsvmahendra/Fraud_app) – Real-Time Credit Card Fraud Detection Dashboard.
-- 🤖 [MemoryVisualizer](https://github.com/rajsvmahendra/MemoryVisualizer) – A Python-based memory allocation simulator.
-- 📊 [Dashboards](#) – I like making data talk.
+- 🤖 **[MemoryVisualizer](https://github.com/rajsvmahendra/MemoryVisualizer)**  
+  A Python-based simulator to visualize memory allocation.
 
-_(Working on new ones constantly — watch this space!)_
+- 📊 **Dashboards**  
+  Data visualizations that make numbers speak.
+
+*(More projects coming — this forge is always hot.)*
 
 ---
 
 ## 📚 Currently Learning
 
-- 🧾 TypeScript
-- 🤖 LLM Fine-Tuning
-- 🪛 How to not refactor the same function 18 times 😅
+- 🧾 TypeScript  
+- 🤖 LLM Fine-Tuning  
+- 🧠 System design basics  
 
 ---
 
-## 💡 Fun Facts
+## 🧩 Fun Facts
 
-- I love ancient philosophy as much as modern tech 🏛️  
-- My coffee: strong and dark like my variable naming conventions ☕  
-- Once debugged an issue for 3 hours... forgot to save the file 😭
+- Ancient philosophy fascinates me as much as modern tech  
+- Coffee fuels both my code and my courage ☕  
+- I’ve spent hours debugging… only to realize I didn’t save the file  
 
 ---
 
-## 📬 Let’s Talk
-
-I’m always up for collaborations, nerdy chats, or just vibing on tech.
+## 📬 Connect With Me
 
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/rajsvmahendra/)
-[![Gmail](https://img.shields.io/badge/-Email-red?style=flat&logo=gmail&logoColor=white)](mailto:rajsvmahendra@gmail.com)
-[![Portfolio](https://img.shields.io/badge/-Portfolio-grey?style=flat&logo=internet-explorer)](https://yourportfolio.com)
+[![Email](https://img.shields.io/badge/-Email-red?style=flat&logo=gmail&logoColor=white)](mailto:rajsvmahendra@gmail.com)
+[![Portfolio](https://img.shields.io/badge/-Portfolio-grey?style=flat)](https://yourportfolio.com)
 
 ---
 
-> "Code is poetry, and I intend to leave behind verses."
+> *“Code is not noise. It is a record of how I think.”*
