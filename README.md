@@ -63,15 +63,19 @@ Data analysis project focused on trends in the Indian Quick Service Restaurant (
 ## GitHub Motion
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=rajsvmahendra&theme=tokyonight&hide_border=true" />
+  <img src="https://streak-stats.demolab.com?user=rajsvmahendra&theme=tokyonight&hide_border=true" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=rajsvmahendra&show_icons=true&theme=tokyonight&hide_border=true" />
+  <img src="https://github-readme-stats.vercel.app/api?username=rajsvmahendra&show_icons=true&include_all_commits=true&theme=tokyonight&hide_border=true" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rajsvmahendra&layout=compact&theme=tokyonight&hide_border=true" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rajsvmahendra&layout=compact&size_weight=0.5&count_weight=0.5&theme=tokyonight&hide_border=true" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=rajsvmahendra&theme=tokyo-night&hide_border=true" />
 </p>
 
 ---
