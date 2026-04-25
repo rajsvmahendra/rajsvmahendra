@@ -1,95 +1,116 @@
+<h1 align="center">Hi 👋, I'm Rajsv Mahendra</h1>
+
+<h3 align="center">Data Analyst • Frontend Designer • Building Clean Interfaces from Raw Data</h3>
+
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=24&pause=1000&color=00F7FF&center=true&vCenter=true&width=700&lines=Hi%2C+I%27m+Rajsv+Mahendra;Data+Analyst+%26+Frontend+Designer;I+turn+data+into+clear+interfaces" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=00F7FF&center=true&vCenter=true&width=750&lines=Welcome+to+my+GitHub+Profile;Data+Analyst+%7C+Frontend+Designer;Turning+Data+into+Decisions;Designing+Interfaces+People+Enjoy+Using" alt="Typing SVG" />
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=rajsvmahendra&color=brightgreen" alt="profile views" />
-</p>
-
----
-
-## About Me
-
-I am a Data Analyst and Frontend Designer who enjoys working at the intersection of data and design.  
-My focus is on analyzing data with Python and presenting insights through clean, usable interfaces.
-
----
-
-## What I Do
-
-- Data analysis and visualization  
-- Dashboard design  
-- Machine learning models  
-- Frontend development for analytics applications  
-
----
-
-## Tech Stack
-
-### Data & Programming
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat&logo=numpy&logoColor=white)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=flat)
-![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=flat&logo=scikit-learn&logoColor=white)
-
-### Frontend
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
-
-### Tools
-![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)
-
----
-
-## Featured Projects
-
-### Fraud Detection System  
-https://github.com/rajsvmahendra/Fraud-Detection-System.git  
-
-Machine learning project for detecting fraudulent transactions using historical data.
-
----
-
-### India QSR Insights 2025  
-https://github.com/rajsvmahendra/India-QSR-Insights-2025.git  
-
-Data analysis project focused on trends in the Indian Quick Service Restaurant (QSR) market.
-
----
-
-## GitHub Motion
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=rajsvmahendra&show_icons=true&include_all_commits=true&theme=tokyonight&hide_border=true" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rajsvmahendra&layout=compact&size_weight=0.5&count_weight=0.5&theme=tokyonight&hide_border=true" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=rajsvmahendra&theme=tokyo-night&hide_border=true" />
+  <img src="https://komarev.com/ghpvc/?username=rajsvmahendra&label=Profile%20Views&color=0e75b6&style=flat" alt="Profile Views" />
 </p>
 
 ---
 
-## Currently Learning
+## 👨‍💻 About Me
+
+- 🎓 Student with a passion for **technology, analytics, and design**
+- 📊 I transform raw data into meaningful insights
+- 🎨 I design modern and user-friendly interfaces
+- 🚀 Interested in **Data Science, Dashboards, Machine Learning, and Frontend Development**
+- 📚 Always learning something useful, because skill compounds like interest
+
+---
+
+## 🛠️ Tech Stack
+
+### 📌 Languages & Libraries
+
+<p align="left">
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
+<img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white"/>
+<img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white"/>
+<img src="https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/ScikitLearn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white"/>
+</p>
+
+### 🎨 Frontend Development
+
+<p align="left">
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
+<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
+</p>
+
+### ⚙️ Tools & Platforms
+
+<p align="left">
+<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/>
+<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
+<img src="https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white"/>
+</p>
+
+---
+
+## 🚀 Featured Projects
+
+### 🔹 Fraud Detection System
+📌 Machine learning project for identifying fraudulent transactions using historical financial data.  
+🔗 https://github.com/rajsvmahendra/Fraud-Detection-System
+
+### 🔹 India QSR Insights 2025
+📌 Data analytics project exploring trends in India's Quick Service Restaurant industry.  
+🔗 https://github.com/rajsvmahendra/India-QSR-Insights-2025
+
+---
+
+## 📈 GitHub Analytics
+
+<p align="center">
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=rajsvmahendra&show_icons=true&theme=tokyonight&hide_border=true"/>
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=rajsvmahendra&layout=compact&theme=tokyonight&hide_border=true"/>
+</p>
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=rajsvmahendra&theme=tokyonight&hide_border=true"/>
+</p>
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=rajsvmahendra&theme=tokyo-night&hide_border=true"/>
+</p>
+
+---
+
+## 🌱 Currently Learning
 
 - TypeScript  
-- Advanced dashboards  
-- Improving machine learning models  
-- Frontend design practices  
+- Advanced Dashboard Design  
+- Machine Learning Optimization  
+- Better UI/UX Principles  
+- Real-world Data Storytelling  
 
 ---
 
-## Contact
+## 🤝 Connect With Me
 
-LinkedIn: https://www.linkedin.com/in/rajsvmahendra/  
-Email: mailto:rajsvmahendra@gmail.com  
+<p align="left">
+<a href="https://www.linkedin.com/in/rajsvmahendra/" target="_blank">
+<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
+</a>
+
+<a href="mailto:rajsvmahendra@gmail.com">
+<img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
+</a>
+</p>
 
 ---
 
-I build projects to make data understandable and interfaces usable.
+## ✨ Motto
+
+> “Good data tells the truth. Great design makes people listen.”
+
+---
+
+<p align="center">
+  💙 Thanks for visiting my profile
+</p>
