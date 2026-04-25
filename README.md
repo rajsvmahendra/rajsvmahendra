@@ -64,20 +64,22 @@
 
 ---
 
-## 📈 GitHub Analytics
+## 📈 My GitHub Stats
 
-<p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=rajsvmahendra&show_icons=true&theme=tokyonight&hide_border=true"/>
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=rajsvmahendra&layout=compact&theme=tokyonight&hide_border=true"/>
-</p>
+<div align="center">
 
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=rajsvmahendra&theme=tokyonight&hide_border=true"/>
-</p>
+### 🔷 GitHub Overview
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=rajsvmahendra&theme=radical" alt="GitHub Profile Summary"/>
 
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=rajsvmahendra&theme=tokyo-night&hide_border=true"/>
-</p>
+### 🔷 Top Languages
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=rajsvmahendra&theme=radical" height="150" alt="Top Languages"/>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=rajsvmahendra&theme=radical" height="150" alt="Most Used Language"/>
+
+### 🔷 GitHub Activity
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=rajsvmahendra&theme=radical" height="150" alt="GitHub Stats"/>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=rajsvmahendra&theme=radical&utcOffset=5.5" height="150" alt="Productive Time"/>
+
+</div>
 
 ---
 
