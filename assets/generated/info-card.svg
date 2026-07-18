@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="740" height="308" viewBox="0 0 740 308">
+<rect x="1" y="1" width="738" height="306" rx="14" fill="#161b22" stroke="#8b949e" stroke-opacity="0.28"/>
+<rect x="16" y="16" width="708" height="276" rx="12" fill="#0d1117"/>
+<rect x="28" y="32" width="46" height="8" rx="4" fill="#3fb950" opacity="0.9"/>
+<rect x="82" y="32" width="46" height="8" rx="4" fill="#58a6ff" opacity="0.9"/>
+<rect x="136" y="32" width="46" height="8" rx="4" fill="#8b949e" opacity="0.9"/>
+<text x="24" y="64" font-family="JetBrains Mono, Consolas, monospace" font-size="16" fill="#58a6ff">rajsv@github:~$ neofetch</text>
+<text x="24" y="86" font-family="JetBrains Mono, Consolas, monospace" font-size="12" fill="#8b949e">System information • profile generator</text>
+<text x="24" y="112" font-family="JetBrains Mono, Consolas, monospace" font-size="13" fill="#3fb950">Name</text>
+<text x="140" y="112" font-family="JetBrains Mono, Consolas, monospace" font-size="13" fill="#c9d1d9">Rajsv Mahendra</text>
+<text x="24" y="130" font-family="JetBrains Mono, Consolas, monospace" font-size="13" fill="#3fb950">Role</text>
+<text x="140" y="130" font-family="JetBrains Mono, Consolas, monospace" font-size="13" fill="#c9d1d9">AI • Full Stack • Android</text>
+<text x="24" y="152" font-family="JetBrains Mono, Consolas, monospace" font-size="13" fill="#3fb950">Education</text>
+<text x="140" y="152" font-family="JetBrains Mono, Consolas, monospace" font-size="13" fill="#c9d1d9">B.Tech Computer Science &amp; Engineering</text>
+<text x="140" y="170" font-family="JetBrains Mono, Consolas, monospace" font-size="13" fill="#c9d1d9">Lovely Professional University (2027)</text>
+<text x="24" y="192" font-family="JetBrains Mono, Consolas, monospace" font-size="13" fill="#3fb950">Languages</text>
+<text x="140" y="192" font-family="JetBrains Mono, Consolas, monospace" font-size="13" fill="#c9d1d9">Java, Python, JavaScript, Kotlin, SQL</text>
+<text x="24" y="210" font-family="JetBrains Mono, Consolas, monospace" font-size="13" fill="#3fb950">Frontend</text>
+<text x="140" y="210" font-family="JetBrains Mono, Consolas, monospace" font-size="13" fill="#c9d1d9">React, HTML, CSS</text>
+<text x="24" y="228" font-family="JetBrains Mono, Consolas, monospace" font-size="13" fill="#3fb950">Backend</text>
+<text x="140" y="228" font-family="JetBrains Mono, Consolas, monospace" font-size="13" fill="#c9d1d9">Node.js, Express.js, MongoDB</text>
+<text x="24" y="246" font-family="JetBrains Mono, Consolas, monospace" font-size="13" fill="#3fb950">Android</text>
+<text x="140" y="246" font-family="JetBrains Mono, Consolas, monospace" font-size="13" fill="#c9d1d9">Kotlin, Jetpack Compose, Firebase</text>
+<text x="24" y="264" font-family="JetBrains Mono, Consolas, monospace" font-size="13" fill="#3fb950">Data Science</text>
+<text x="140" y="264" font-family="JetBrains Mono, Consolas, monospace" font-size="13" fill="#c9d1d9">Scikit-learn, Pandas, NumPy</text>
+<text x="24" y="282" font-family="JetBrains Mono, Consolas, monospace" font-size="13" fill="#3fb950">Projects</text>
+<text x="140" y="282" font-family="JetBrains Mono, Consolas, monospace" font-size="13" fill="#c9d1d9">MailFlow AI, ExitSense, Fraud Detection System</text>
+<text x="24" y="300" font-family="JetBrains Mono, Consolas, monospace" font-size="13" fill="#3fb950">Certs</text>
+<text x="140" y="300" font-family="JetBrains Mono, Consolas, monospace" font-size="13" fill="#c9d1d9">Oracle AI Foundations Associate, Oracle Data</text>
+<text x="140" y="316" font-family="JetBrains Mono, Consolas, monospace" font-size="13" fill="#c9d1d9">Platform Foundations Associate, Mastering Java</text>
+<text x="140" y="332" font-family="JetBrains Mono, Consolas, monospace" font-size="13" fill="#c9d1d9">for Application Development</text>
+</svg>
