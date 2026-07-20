@@ -38,7 +38,7 @@
 
 [![Email](https://img.shields.io/badge/Email-rajsvmahendra%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:rajasvmahendra@gmail.com)
 
-[![Resume](https://img.shields.io/badge/Resume-View_CV-1E90FF?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](https://drive.google.com/file/d/1oe9InE-HzvrlO3rhL84dvqKsIL1WR8R6/view?usp=sharing)
+[![Resume](https://img.shields.io/badge/Resume-View-1E90FF?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](https://drive.google.com/file/d/1oe9InE-HzvrlO3rhL84dvqKsIL1WR8R6/view?usp=sharing)
 
 <br>
 
