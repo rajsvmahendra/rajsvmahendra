@@ -1,41 +1,39 @@
-name: Update profile assets
+name: Update profile art
 
-on:
-  workflow_dispatch:
+# Refreshes the contribution graph SVG daily from real data.
+# Runs daily, plus whenever you push to main, plus on-demand.
+
+"on":
   schedule:
-    - cron: '0 6 * * *'
+    - cron: "17 6 * * *"   # ~06:17 UTC every day
+  workflow_dispatch: {}
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
 
 jobs:
-  build:
+  heatmap:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
-
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
-      - name: Set up Python
-        uses: actions/setup-python@v5
+      - uses: actions/setup-python@v5
         with:
-          python-version: '3.11'
+          python-version: "3.11"
 
       - name: Install dependencies
-        run: |
-          python -m pip install --upgrade pip
-          pip install -r scripts/requirements.txt
+        run: pip install -r scripts/requirements.txt
 
-      - name: Generate assets
-        run: python build.py
+      - name: Scrape real contribution data (no auth needed)
+        run: python scripts/fetch_contributions.py
 
-      - name: Commit generated files
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets/generated
-          if git diff --cached --quiet; then
-            echo "No generated asset changes detected."
-          else
-            git commit -m "chore: refresh generated profile assets"
-            git push
-          fi
+      - name: Render animated contribution graph SVG
+        run: python scripts/generate_streak_svg.py AVIVASHISHTA29 contrib-heatmap.svg
+
+      - name: Commit updated art
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: refresh contribution graph [skip ci]"
+          file_pattern: "data/contributions.json contrib-heatmap.svg"
