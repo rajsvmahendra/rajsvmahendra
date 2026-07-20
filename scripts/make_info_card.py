@@ -53,8 +53,8 @@ ROWS = [
     ("gap",),
 
     ("sec", "Featured"),
-    ("bul", "MailFlow AI • AI Email Generator"),
-    ("bul", "ExitSense • Location Reminder App"),
+    ("bul", "MailFlow AI | AI Email Generator"),
+    ("bul", "ExitSense | Location Reminder App"),       
     
 ]
 
