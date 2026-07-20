@@ -1,77 +1,46 @@
-from pathlib import Path
-from io import BytesIO
+"""
+Prepare a portrait photo for clean ASCII conversion:
+  1. remove the background (rembg) so the subject is isolated
+  2. boost LOCAL contrast (CLAHE) so a flatly-lit face gains highlights and
+     shadows -- this is what turns a dark blob into a recognizable face
+  3. composite the subject onto pure white so the background reads as blank
+     (white -> spaces in the ascii ramp)
+
+Output: source-prepped.png (grayscale), consumed by make_ascii_svg.py.
+Run once whenever the source photo changes; the ascii SVG itself is static.
+
+    python scripts/prep_photo.py <input.jpg> [output.png]
+"""
+import os
+import sys
 
 import cv2
 import numpy as np
 from PIL import Image
 from rembg import remove
 
+HERE = os.path.dirname(os.path.abspath(__file__))
+INP = sys.argv[1] if len(sys.argv) > 1 else os.path.join(HERE, "..", "source-photo.jpg")
+OUT = sys.argv[2] if len(sys.argv) > 2 else os.path.join(HERE, "..", "source-prepped.png")
 
-# -----------------------------
-# Paths
-# -----------------------------
-ROOT = Path(__file__).resolve().parent.parent
+# 1. cut out the subject
+cut = remove(Image.open(INP).convert("RGBA"))
+rgb = np.array(cut.convert("RGB"))
+alpha = np.array(cut.split()[-1])                 # 0 = background
 
-INPUT_IMAGE = ROOT / "assets" / "profile.jpg"
-OUTPUT_IMAGE = ROOT / "assets" / "generated" / "source-prepped.png"
-
-
-# -----------------------------
-# Step 1 : Remove Background
-# -----------------------------
-print("[1/4] Removing background...")
-
-input_bytes = INPUT_IMAGE.read_bytes()
-output_bytes = remove(input_bytes)
-
-from io import BytesIO
-
-rgba = Image.open(BytesIO(output_bytes)).convert("RGBA")
-rgba = np.array(rgba)
-
-
-# -----------------------------
-# Step 2 : White Background
-# -----------------------------
-print("[2/4] Applying white background...")
-
-background = np.ones((rgba.shape[0], rgba.shape[1], 3), dtype=np.uint8) * 255
-
-alpha = rgba[:, :, 3] / 255.0
-
-for c in range(3):
-    background[:, :, c] = (
-        alpha * rgba[:, :, c] +
-        (1 - alpha) * background[:, :, c]
-    )
-
-image = background.astype(np.uint8)
-
-
-# -----------------------------
-# Step 3 : CLAHE Contrast
-# -----------------------------
-print("[3/4] Enhancing contrast...")
-
-gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
-
-clahe = cv2.createCLAHE(
-    clipLimit=2.5,
-    tileGridSize=(8, 8)
-)
-
+# 2. local-contrast the luminance (CLAHE)
+gray = cv2.cvtColor(rgb, cv2.COLOR_RGB2GRAY)
+clahe = cv2.createCLAHE(clipLimit=2.6, tileGridSize=(8, 8))
 gray = clahe.apply(gray)
 
+# a touch of global lift so the face sits in the sparse end of the ramp
+gray = cv2.convertScaleAbs(gray, alpha=1.05, beta=18)
 
-# -----------------------------
-# Step 4 : Save
-# -----------------------------
-print("[4/4] Saving...")
+# 3. paste onto white using the alpha mask (feathered a hair to avoid a halo)
+mask = (alpha.astype(np.float32) / 255.0)
+mask = cv2.GaussianBlur(mask, (0, 0), 1.0)
+out = gray.astype(np.float32) * mask + 255.0 * (1.0 - mask)
+out = np.clip(out, 0, 255).astype(np.uint8)
 
-OUTPUT_IMAGE.parent.mkdir(parents=True, exist_ok=True)
-
-cv2.imwrite(str(OUTPUT_IMAGE), gray)
-
-print()
-print("Done!")
-print(OUTPUT_IMAGE)
+Image.fromarray(out, mode="L").save(OUT)
+print("wrote", OUT, out.shape)

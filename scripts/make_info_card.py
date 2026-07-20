@@ -1,133 +1,128 @@
-from pathlib import Path
+"""
+Build a neofetch-style info card SVG (Rajsv Mahendra style) to sit to the RIGHT of
+the ASCII portrait: colored key/value rows for work experience, tech stack, and
+highlights -- NOT GitHub stats (the contribution graph covers those).
+
+Static content, hand-authored below. Lines fade/slide in on a short stagger so
+it feels like the panel is printing alongside the portrait. STATIC=1 emits the
+frozen state for Quick Look previews.
+"""
 import html
+import os
 
-import yaml
+HERE = os.path.dirname(os.path.abspath(__file__))
+OUT = os.path.join(HERE, "..", "info-card.svg")
+STATIC = bool(os.environ.get("STATIC"))
 
-ROOT = Path(__file__).resolve().parent.parent
+W, H = 480, 376
+PAD = 20
+TITLEBAR_H = 30
+KEY_X = PAD
+VAL_X = PAD + 92
+LINE_H = 20.5
 
-PROFILE = ROOT / "config" / "profile.yaml"
-THEME = ROOT / "config" / "theme.yaml"
-OUTPUT = ROOT / "assets" / "generated" / "info-card.svg"
+BG = "#0d1117"
+BG2 = "#111722"
+FRAME = "#30363d"
+MUTED = "#7d8590"
+INK = "#c9d1d9"
+KEY = "#ffa657"      # orange keys (matches Andrew)
+SECTION = "#58a6ff"  # blue section headers
+GREEN = "#3fb950"
+ACCENT = "#22d3ee"
 
+# content model: tuples describing each row
+# ("host",)                    -> "rajsv@github" + rule
+# ("kv", key, value)           -> orange key + light value
+# ("sec", title)               -> blue "— title —" rule
+# ("bul", text)                -> green dot + light text
+# ("gap",)                     -> vertical space
+ROWS = [
+    ("host",),
+    ("kv", "Role", "AI Engineer & Full Stack Developer"),
+    ("kv", "Status", "Computer Science Student"),
+    ("kv", "University", "Lovely Professional University"),
+    ("kv", "Graduation", "Class of 2027"),
+    ("gap",),
 
-def wrap_text(text, max_chars):
-    words = text.split()
-    lines = []
-    current = []
-    current_len = 0
+    ("sec", "Tech Stack"),
+    ("kv", "Languages", "Python, Java, JavaScript, SQL"),
+    ("kv", "Frontend", "React, HTML, CSS"),
+    ("kv", "Backend", "Node.js, Express.js, MongoDB"),
+    ("kv", "AI / ML", "Scikit-learn, OpenAI APIs"),
+    ("gap",),
 
-    for word in words:
-        if current_len + len(word) + (1 if current else 0) <= max_chars:
-            current.append(word)
-            current_len += len(word) + (1 if current_len else 0)
-        else:
-            lines.append(" ".join(current) if current else word)
-            current = [word]
-            current_len = len(word)
-
-    if current:
-        lines.append(" ".join(current))
-
-    return lines
-
-
-def build_sections(data):
-    lines = []
-    lines.append(("Name", data["name"]))
-    lines.append(("Role", " • ".join(data["role"])))
-    lines.append(("", ""))
-
-    edu = data["education"]
-    lines.append(("Education", edu["degree"]))
-    lines.append(("", f'{edu["university"]} ({edu["graduation"]})'))
-    lines.append(("", ""))
-
-    sections = [
-        ("Languages", "languages"),
-        ("Frontend", "frontend"),
-        ("Backend", "backend"),
-        ("Android", "android"),
-        ("Data Science", "data_science"),
-        ("Projects", "projects"),
-        ("Certs", "certifications"),
-    ]
-
-    for title, key in sections:
-        value = ", ".join(data[key])
-        lines.append((title, value))
-
-    return lines
+    ("sec", "Featured"),
+    ("bul", "MailFlow AI • AI Email Generator"),
+    ("bul", "ExitSense • Location Reminder App"),
+    
+]
 
 
-def generate_svg(profile_path=None, output_path=None, theme_path=None):
-    """Render a neofetch-inspired terminal card with automatic wrapping."""
-    profile_path = profile_path or PROFILE
-    output_path = output_path or OUTPUT
-    theme_path = theme_path or THEME
-
-    data = yaml.safe_load(profile_path.read_text(encoding="utf-8"))
-    theme = yaml.safe_load(theme_path.read_text(encoding="utf-8")).get("theme", {})
-
-    lines = build_sections(data)
-
-    padding = 24
-    label_width = 104
-    line_height = 18
-    width = 740
-    height = 48 + len(lines) * line_height + 26
-
-    background = theme.get("background", "#0d1117")
-    panel = theme.get("panel", "#161b22")
-    primary = theme.get("secondary", "#58a6ff")
-    text = theme.get("text", "#c9d1d9")
-    muted = theme.get("muted", "#8b949e")
-    success = theme.get("success", "#3fb950")
-
-    content_x = padding + label_width + 12
-    max_value_chars = 48
-
-    svg = [
-        f'<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" viewBox="0 0 {width} {height}">',
-        f'<rect x="1" y="1" width="{width - 2}" height="{height - 2}" rx="14" fill="{panel}" stroke="{muted}" stroke-opacity="0.28"/>',
-        f'<rect x="16" y="16" width="{width - 32}" height="{height - 32}" rx="12" fill="{background}"/>',
-        f'<rect x="28" y="32" width="46" height="8" rx="4" fill="{success}" opacity="0.9"/>',
-        f'<rect x="82" y="32" width="46" height="8" rx="4" fill="{primary}" opacity="0.9"/>',
-        f'<rect x="136" y="32" width="46" height="8" rx="4" fill="{muted}" opacity="0.9"/>',
-        f'<text x="{padding}" y="64" font-family="JetBrains Mono, Consolas, monospace" font-size="16" fill="{primary}">rajsv@github:~$ neofetch</text>',
-        f'<text x="{padding}" y="86" font-family="JetBrains Mono, Consolas, monospace" font-size="12" fill="{muted}">System information • profile generator</text>',
-    ]
-
-    y = 112
-    for label, value in lines:
-        if label == "" and value == "":
-            y += 4
-            continue
-
-        if label:
-            svg.append(
-                f'<text x="{padding}" y="{y}" font-family="JetBrains Mono, Consolas, monospace" font-size="13" fill="{success}">{html.escape(label)}</text>'
-            )
-
-        wrapped = wrap_text(value, max_value_chars)
-        for index, chunk in enumerate(wrapped):
-            chunk_y = y + index * 16
-            svg.append(
-                f'<text x="{content_x}" y="{chunk_y}" font-family="JetBrains Mono, Consolas, monospace" font-size="13" fill="{text}">{html.escape(chunk)}</text>'
-            )
-
-        y += max(18, len(wrapped) * 16)
-
-    svg.append('</svg>')
-    output_path.parent.mkdir(parents=True, exist_ok=True)
-    output_path.write_text("\n".join(svg), encoding="utf-8")
-    return output_path
+def esc(s):
+    return html.escape(s)
 
 
-def main():
-    output_path = generate_svg()
-    print("Info card created!")
-    print(output_path)
+def rise(inner, i):
+    """fade + slight upward slide, staggered by row index; freezes visible."""
+    if STATIC:
+        return f"<g>{inner}</g>"
+    delay = 0.15 + i * 0.06
+    return (f'<g opacity="0" transform="translate(0,5)">{inner}'
+            f'<animate attributeName="opacity" from="0" to="1" begin="{delay:.2f}s" dur="0.4s" fill="freeze"/>'
+            f'<animateTransform attributeName="transform" type="translate" from="0 5" to="0 0" '
+            f'begin="{delay:.2f}s" dur="0.4s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/></g>')
 
 
-if __name__ == "__main__":
-    main()
+parts = [
+    f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" '
+    f'font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">',
+    '<defs>'
+    f'<linearGradient id="ibg" x1="0" y1="0" x2="0" y2="1">'
+    f'<stop offset="0" stop-color="{BG2}"/><stop offset="1" stop-color="{BG}"/></linearGradient></defs>',
+    f'<rect width="{W}" height="{H}" rx="12" fill="url(#ibg)"/>',
+    f'<rect x="0.5" y="0.5" width="{W-1}" height="{H-1}" rx="12" fill="none" stroke="{FRAME}"/>',
+    f'<line x1="0" y1="{TITLEBAR_H}" x2="{W}" y2="{TITLEBAR_H}" stroke="{FRAME}"/>',
+]
+for i, dotcol in enumerate(["#ff5f56", "#ffbd2e", "#27c93f"]):
+    parts.append(f'<circle cx="{PAD + i*16}" cy="{TITLEBAR_H/2}" r="5" fill="{dotcol}"/>')
+parts.append(f'<text x="{W/2}" y="{TITLEBAR_H/2 + 4}" fill="{MUTED}" font-size="12" '
+             f'text-anchor="middle">rajsv@github: ~$ neofetch</text>')
+
+
+y = TITLEBAR_H + 30
+for i, row in enumerate(ROWS):
+    kind = row[0]
+    if kind == "gap":
+        y += LINE_H * 0.5
+        continue
+    if kind == "host":
+        inner = (f'<text x="{KEY_X}" y="{y:.1f}" font-size="14" font-weight="700">'
+                 f'<tspan fill="{GREEN}">rajsv</tspan><tspan fill="{MUTED}">@</tspan>'
+                 f'<tspan fill="{ACCENT}">github</tspan></text>'
+                 f'<line x1="{KEY_X+96}" y1="{y-4:.1f}" x2="{W-PAD}" y2="{y-4:.1f}" '
+                 f'stroke="{FRAME}" stroke-opacity="0.8"/>')
+    elif kind == "sec":
+        title = esc(row[1])
+        inner = (f'<text x="{KEY_X}" y="{y:.1f}" fill="{SECTION}" font-size="12.5" font-weight="700">'
+                 f'&#8212; {title}</text>'
+                 f'<line x1="{KEY_X + 12 + len(row[1])*8}" y1="{y-4:.1f}" x2="{W-PAD}" y2="{y-4:.1f}" '
+                 f'stroke="{FRAME}" stroke-opacity="0.8"/>')
+    elif kind == "kv":
+        key, val = esc(row[1]), esc(row[2])
+        inner = (f'<text x="{KEY_X}" y="{y:.1f}" fill="{KEY}" font-size="12.5" font-weight="700">{key}</text>'
+                 f'<text x="{VAL_X}" y="{y:.1f}" fill="{INK}" font-size="12.5">{val}</text>')
+    elif kind == "bul":
+        txt = esc(row[1])
+        inner = (f'<circle cx="{KEY_X+3}" cy="{y-4:.1f}" r="2.5" fill="{GREEN}"/>'
+                 f'<text x="{KEY_X+14}" y="{y:.1f}" fill="{INK}" font-size="12.5">{txt}</text>')
+    else:
+        continue
+    parts.append(rise(inner, i))
+    y += LINE_H
+
+parts.append("</svg>")
+svg = "".join(parts)
+with open(OUT, "w") as f:
+    f.write(svg)
+print("wrote", OUT, len(svg), "bytes;", W, "x", H, "content_bottom", round(y))
